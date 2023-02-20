@@ -1,0 +1,30 @@
+.boton {
+    background-color: #FF7000; /* color de fondo del botón */
+    border: none; /* borde sin estilo */
+    color: white; /* color del texto del botón */
+    padding: 15px 32px; /* espaciado interno del botón */
+    text-align: center; /* alineación del texto */
+    text-decoration: none; /* sin subrayado del texto */
+    display: inline-bloc; /* muestra el botón como elemento en línea */
+    font-size: 16px; /* tamaño de fuente */
+    margin: 4px 2px; /* márgenes del botón */
+    cursor: pointer; /* estilo de cursor al pasar por encima del botón */
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  h1 {
+    color: #1E90FF;
+    text-align: center;
+    font-size: 48px;
+  }
+  
+  h3 {
+    color: #808080;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 40px;
+  }
+  
+  .boton:hover {
+    background-color: #0066CC;
+  }
